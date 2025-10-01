@@ -10,3 +10,5 @@ run: python quantum_vs_classical_shapes.py
 - I am running this on python 3.13.5 for anyone who is curious but anything 3.11+ should work fine
 
 - if this seems like it is taking forever that is because the plotting step is doing 400,000 quantum evaluations so each grid point (200 by 200) calls a circut so it crawls
+
+- this is quite a bit heavy on ram and cpu but should work fine on your laptops 
